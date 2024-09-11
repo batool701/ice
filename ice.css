@@ -1,0 +1,17 @@
+*{
+    color:black;
+    font-family: Algerian;
+}
+:root{
+    --red: #700;
+    --blue:rgb(0, 82, 102);
+}
+
+#app-container{
+    background: linear-gradient(to top, var(--red), var(--blue));
+}
+button{
+    color: hsl(187, 96%, 54%);
+    background: linear-gradient(to left,var(--red),var(--blue));
+}
+
